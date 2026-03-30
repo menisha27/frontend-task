@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 
-const API = 'https://backend-intern-task.onrender.com/api/v1';
-
+const API = 'https://backend-intern-task-y9k9.onrender.com/api/v1';
 export default function App() {
   const [token, setToken] = useState('');
   const [userName, setUserName] = useState('');
